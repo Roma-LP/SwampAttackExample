@@ -37,9 +37,14 @@ public class Player : MonoBehaviour
     public void ApplyDamage(int damage)
     {
         _currentHealth -= damage;
-        if(_currentHealth<=0)
+        if (_currentHealth <= 0)
         {
             Destroy(gameObject);
         }
+    }
+
+    public void AddMoney(int money)
+    {
+        Money = Money + money;
     }
 }

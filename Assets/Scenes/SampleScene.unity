@@ -373,6 +373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 137131843}
   - component: {fileID: 137131844}
+  - component: {fileID: 137131845}
   m_Layer: 5
   m_Name: ProgressBar
   m_TagString: Untagged
@@ -452,6 +453,20 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &137131845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137131842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c6f80c961f7a504ebfb007b82f8e51c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slider: {fileID: 137131844}
+  _spawner: {fileID: 162144495}
 --- !u!1 &150780064
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,7 +612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &185152364
 RectTransform:
   m_ObjectHideFlags: 0
@@ -770,7 +785,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7265313343042191254, guid: f3251dfb83a9fd64ab47daf4df1e275f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1354,6 +1369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 599825706}
   - component: {fileID: 599825707}
+  - component: {fileID: 599825708}
   m_Layer: 5
   m_Name: HealthBar
   m_TagString: Untagged
@@ -1433,6 +1449,20 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &599825708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599825705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 018449ffd3a9dba4d8966cbc75196582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slider: {fileID: 599825707}
+  _player: {fileID: 2053969310}
 --- !u!1 &639665552
 GameObject:
   m_ObjectHideFlags: 0
@@ -1920,7 +1950,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 7265313343042191254, guid: f3251dfb83a9fd64ab47daf4df1e275f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2271,7 +2301,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7265313343042191254, guid: f3251dfb83a9fd64ab47daf4df1e275f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2650,7 +2680,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.116703875, y: 0.22800002}
   m_AnchorMax: {x: 0.9717039, y: 0.7951574}
-  m_AnchoredPosition: {x: -0.0005188, y: -0.18720055}
+  m_AnchoredPosition: {x: -0.0005187988, y: -0.18720055}
   m_SizeDelta: {x: -0.18658, y: -0.2487}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1550586214
